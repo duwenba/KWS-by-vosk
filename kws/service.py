@@ -70,5 +70,9 @@ class KeywordService:
                 time.sleep(1)  # 可以根据需要调整休眠时间
         except KeyboardInterrupt:
             logger.info('被用户中断')
-        finally:
             self.stop()
+        except Exception as e:
+            logger.error(f'服务运行出错: {e}')
+            self.stop()
+        finally:
+            logger.info('================================================================\n')
