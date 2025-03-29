@@ -11,9 +11,3 @@ dependencies = [
     "loguru>=0.7.3",
     "numpy>=2.2.4",
 ]
-
-[project.optional-dependencies]
-dev = [
-    "pytest>=7.4.3",
-    "black>=23.11.0"
-]
