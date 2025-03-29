@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.swn-swp
+*.bak
+*.orig
+*.rej
+*.tmp
+*.log
+*.out
+*.err
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.exe
+
+# vscode
+.vscode/
+
+# data
+data/
